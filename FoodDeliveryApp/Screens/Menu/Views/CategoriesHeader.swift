@@ -23,7 +23,7 @@ class CategoriesHeader: UICollectionReusableView {
     
     static let reuseIdentifier = "CategoriesHeader"
     
-    var delegate: CategoriesHeaderDelegate?
+    weak var delegate: CategoriesHeaderDelegate?
     
     private var selectedCategory = -1
     
