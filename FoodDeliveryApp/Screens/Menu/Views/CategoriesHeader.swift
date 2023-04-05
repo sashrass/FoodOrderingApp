@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol CategoriesHeaderDelegate {
+protocol CategoriesHeaderDelegate: AnyObject {
     func didSelectCategoryWith(index: Int)
 }
 
